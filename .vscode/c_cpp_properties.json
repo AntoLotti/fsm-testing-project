@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "Ubuntu20-ceedling",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/include/",
+                "${workspaceFolder}/ceedling/build/test/mocks/",
+                "/var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/unity/src/",
+                "/var/lib/gems/2.7.0/gems/ceedling-0.31.1/vendor/cmock/src/",
+                "${workspaceFolder}/ceedling/test/support/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Ubuntu22-ceedling",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/include/",
+                "${workspaceFolder}/ceedling/build/test/mocks",
+                "/var/lib/gems/3.0.0/gems/ceedling-0.31.1/vendor/unity/src/",
+                "/var/lib/gems/3.0.0/gems/ceedling-0.31.1/vendor/cmock/src/",
+                "${workspaceFolder}/ceedling/test/support/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "osx-ceedling",
+            "includePath": [
+                "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/src/**",
+                "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/include/",
+                "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/ceedling/build/test/mocks",
+                "/Users/alvaromontesano/.gem/ruby/3.0.5/gems/ceedling-0.31.1/vendor/unity/src/",
+                "/Users/alvaromontesano/.gem/ruby/3.0.5/gems/ceedling-0.31.1/vendor/cmock/src/",
+                "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/ceedling/test/support/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/src/**",
+                    "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/include/",
+                    "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/ceedling/build/test/mocks",
+                    "/Users/alvaromontesano/.gem/ruby/3.0.5/gems/ceedling-0.31.1/vendor/unity/src/",
+                    "/Users/alvaromontesano/.gem/ruby/3.0.5/gems/ceedling-0.31.1/vendor/cmock/src/",
+                    "/Users/alvaromontesano/Documents/MUISE/2º_Semestre/LSEL/lsel2024-04/P5_MatrixMCU/lib/fsm/ceedling/test/support/",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
